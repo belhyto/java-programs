@@ -11,7 +11,7 @@
 import java.util.*;
 public class quizComp
 {
-    // instance variables - replace the example below with your own
+    // instance variables 
     
     char Ans[][],Key[];
     int Score[],n,max;
