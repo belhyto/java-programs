@@ -9,18 +9,10 @@
 import java.util.Scanner;
 public class boxCapacity
 {
-    // instance variables - replace the example below with your own
+    // instance variables
     private int n,nn,cart;
      int []box={48,24,12,6};
-    /**
-     * Constructor for objects of class boxCapacity
-     */
-    public boxCapacity()
-    {
-        // initialise instance variables
-        
-    }
-
+   
     void getData()
    {
      Scanner in=new Scanner(System.in);
