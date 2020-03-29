@@ -10,8 +10,8 @@
 import java.util.Scanner;
 public class sortMatrix
 {
-    // instance variables - replace the example below with your own
-     ;
+    // instance variables 
+     
     int b[][],a[],N;
       
         
@@ -21,7 +21,7 @@ public class sortMatrix
     public sortMatrix()
     {
         // initialise instance variables
-       
+       N=0;
     }
     void getData()
     {
