@@ -9,7 +9,7 @@
 import java.util.Scanner;
 public class verticalWords 
 {
-    // instance variiables 
+    // instance variables 
     private int len,n;
     String []name;
     
