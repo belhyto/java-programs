@@ -9,7 +9,7 @@
 import java.util.Scanner;
 public class verticalWords 
 {
-    // instance vnameiables - replace the example below with your own
+    // instance vnameiables 
     private int len,n;
     String []name;
     
