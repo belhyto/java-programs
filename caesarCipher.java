@@ -9,7 +9,7 @@
 import java.util.Scanner;
 public class caesarCipher
 {
-    // instance variables - replace the example below with your own
+    // instance variables
     private int x;
 String sen,str;
     String []words;
@@ -44,7 +44,7 @@ String sen,str;
          continue;}
          
          num=(int)ch+key;
-          if (Character.isUpperCase(ch)) {//condition to check if the no. is uppercase
+          if (Character.isUpperCase(ch)) {//condition to check if the string is uppercase
          if(num>90)    //cyclic feature
          {
          num=num-26;
