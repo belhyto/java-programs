@@ -56,7 +56,7 @@ void frequency()
             for(int j = i+1; j <key.length(); j++) {  
                 if(ch[i] == ch[j]) {  
                     freq[i]++; //count frequency of each char
-                    ch[j] = ' '; //avoid counting same char 
+                    ch[j] = ' '; //replaces already counted char with space 
                 }  
 }
 }
