@@ -1,9 +1,8 @@
 
 /**
- * Write a description of class matRev here.
+ * Program to reverse the elements of a matrix.
  *
- * @author (your name)
- * @version (a version number or a date)
+ *
  */
 import java.util.*;
 public class matRev
@@ -38,7 +37,7 @@ void fillarray()
     
     public int reverse(int x)
     {
-        // put your code here
+        
         while(x!=0)
         {
             int dig=x%10;

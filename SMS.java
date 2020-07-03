@@ -1,7 +1,8 @@
 
 /**
  * Journal program 17
- * Write a program to display a message as a combination of phone keys .
+ * Write a program to display a message as a combination of phone keys and 
+ * diplay the frequeny of every key.
  */
 import java.util.*;
 public class SMS
@@ -9,10 +10,10 @@ public class SMS
     // instance variables 
    
     String message;
-       char []letter={'a','b','c','d','e','f','g','h','i','j','k','l','m','n'
-        ,'o','p','q','r','s','t','u','v','w','x','y','z',' '};
-       int []num={2,22,222,3,33,333,4,44,444,5,55,555,6,66,666,7,77,777,7777,
-           8,88,888,9,99,999,9999,0};
+       char []letter={' ','a','b','c','d','e','f','g','h','i','j','k','l','m','n'
+        ,'o','p','q','r','s','t','u','v','w','x','y','z'};
+       int []num={0,2,22,222,3,33,333,4,44,444,5,55,555,6,66,666,7,77,777,7777,
+           8,88,888,9,99,999,9999};
        String key="";
        int []freq;
     
@@ -30,7 +31,7 @@ public class SMS
      {
          Scanner sc = new Scanner(System.in);
         System.out.print("Enter a message: ");//accept message from user
-        message = sc.next();
+        message = sc.nextLine();
 }
      void getKeys()
      {
@@ -55,7 +56,7 @@ void frequency()
             for(int j = i+1; j <key.length(); j++) {  
                 if(ch[i] == ch[j]) {  
                     freq[i]++; //count frequency of each char
-                    ch[j] = '0'; //avoid counting same char 
+                    ch[j] = ' '; //avoid counting same char 
                 }  
 }
 }
@@ -67,7 +68,7 @@ void display()
      System.out.println();
               System.out.println("Number         Frequency ");
                 for(int i = 0; i <freq.length; i++) {  
-                if(ch[i]!='0') //char condition
+                if(ch[i]!=' ') //char condition
                 System.out.println(  ch[i] + "         " + freq[i]);  
             }
                    
