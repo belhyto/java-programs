@@ -9,7 +9,7 @@
 import java.util.Scanner;
 public class verticalWords 
 {
-    // instance vnameiables - replace the example below with your own
+    // instance variables 
     private int len,n;
     String []name;
     
@@ -18,7 +18,7 @@ public class verticalWords
      */
     public verticalWords()
     {
-        // initialise instance vnameiables
+        // initialise instance variables
         
         len = 0;
     }

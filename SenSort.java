@@ -1,9 +1,9 @@
 
 /**
- * Write a description of class SenSort here.
+ * ISC 2020 Q3
  *
- * @author (your name)
- * @version (a version number or a date)
+ *  Arrange the words for sentence in ascending order of the length. 
+ *  If 2 or more words have the same length then sort them alphabetically.
  */
 import java.util.Scanner;
 public class SenSort
