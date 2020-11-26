@@ -7,7 +7,7 @@
 
  */
 import java.util.Scanner;
-public class caesarCipher
+ class caesarCipher
 {
     // instance variables
     private int x;
