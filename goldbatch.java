@@ -7,15 +7,15 @@
 
  */
 import java.util.Scanner;
-public class goldbatch
+ class goldbatch
 {
-    // instance variables - replace the example below with your own
+
     private int n,a,b;
 
     /**
      * Constructor for objects of class goldbatch
      */
-    public goldbatch()
+     goldbatch()
     {
         // initialise instance variables
         n= 0;
@@ -35,7 +35,7 @@ public class goldbatch
         if(n%2!=0)
         System.out.println("Number is Invalid.");
     }
-    public  boolean isPrime(int x)//function to check if the no. is prime
+      boolean isPrime(int x)//function to check if the no. is prime
     {
         int f=0;
         for(int i=1;i<=x;i++)
