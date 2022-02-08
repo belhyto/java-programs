@@ -58,7 +58,7 @@ class octMatrix
                         }
                     
                     }
-      public static void main () //main method
+      public static void main (String[] args) //main method
     {
        octMatrix obj=new octMatrix();
        obj.getData();

@@ -55,7 +55,7 @@ public class funnyWord
             System.out.println(str+ " is a funny word");
             else System.out.println(str+ " is not funny word");  
         }
-          public static void main ()//main method
+          public static void main (String[] args)//main method
     {
        funnyWord obj=new funnyWord();
        obj.getData();

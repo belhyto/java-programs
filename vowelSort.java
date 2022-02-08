@@ -64,7 +64,7 @@ void findVowel()
      System.out.println(Vword+Cword);//printing words beginning and ending with a vowel followed
      //by words beginning and ending with a consonant  
     }
-    public static void main()//main method
+    public static void main(String[] args)//main method
 {
     vowelSort obj=new vowelSort();
     obj.getData();

@@ -144,7 +144,7 @@ void printMat()
         }
        System.out.println("Sum of the diagonal elements="+sum);
     }  
-      public static void main ()//main method
+      public static void main (String[] args)//main method
     {
        rearrangeMatrix obj=new rearrangeMatrix();
        obj.getData();

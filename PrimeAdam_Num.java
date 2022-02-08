@@ -69,7 +69,7 @@ class PrimeAdam_Num
     else System.out.println("The number is not a prime number.");
     
 }
- public static void main ()
+ public static void main (String[] args)
     {
        PrimeAdam_Num obj=new PrimeAdam_Num();
        obj.getData();

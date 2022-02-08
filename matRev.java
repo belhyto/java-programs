@@ -59,7 +59,7 @@ void fillarray()
     }
     
 }
-public static void main ()//main method
+public static void main (String[] args)//main method
     {
          Scanner sc=new Scanner(System.in);
           System.out.print("Enter number of rows:");

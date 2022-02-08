@@ -29,7 +29,7 @@ import java.util.*;
     }
     
   
- public static void main()//main method
+ public static void main(String[] args)//main method
 {
     
     Scanner sc=new Scanner(System.in);

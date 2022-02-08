@@ -66,7 +66,7 @@ void sortWords()
         }
         
        
-            public static void main()//main method
+            public static void main(String[] args)//main method
 {
     SenSort obj=new SenSort();
     obj.getData();

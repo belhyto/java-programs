@@ -60,7 +60,7 @@ String sen,str;
     }
     return newword;
 }
- public static void main()//main method
+ public static void main(String[] args)//main method
 {
     caesarCipher obj=new caesarCipher();
     obj.getData();

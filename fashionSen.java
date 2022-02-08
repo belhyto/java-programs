@@ -83,7 +83,7 @@ public class fashionSen
     }
     return newword;
 }
-    public static void main() //main method
+    public static void main(String[] args) //main method
 {
     fashionSen obj=new fashionSen();
     obj.getData();

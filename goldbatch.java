@@ -58,7 +58,7 @@ import java.util.Scanner;
             a+=2;
         }
     }
-    public static void main ()//main method
+    public static void main (String[] args)//main method
     {
        goldbatch obj=new goldbatch();
        obj.getData();

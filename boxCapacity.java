@@ -42,7 +42,7 @@ void find()
           
             System.out.println("Total number of cartons= "+cart);
         }
-        public static void main ()//main method
+        public static void main (String[] args)//main method
     {
        boxCapacity obj=new boxCapacity();
        obj.getData();

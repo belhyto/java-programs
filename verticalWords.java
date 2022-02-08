@@ -62,7 +62,7 @@ public class verticalWords
             System.out.println();
         }
     }
-             public static void main()//main method
+             public static void main(String[] args)//main method
 {
     verticalWords obj=new verticalWords();
     obj.getData();

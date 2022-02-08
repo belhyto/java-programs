@@ -89,7 +89,7 @@ public class asc_rowMatrix
                     }
                  return mat;   
                 }  
-            public static void main ()//main method
+            public static void main (String[] args)//main method
     {
        asc_rowMatrix obj=new asc_rowMatrix();
        obj.getData();

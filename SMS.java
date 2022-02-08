@@ -74,7 +74,7 @@ void display()
                    
         }
 
-public static void main () //main method
+  public static void main(String[] args) //main method
     {
        SMS obj=new SMS();
        obj.getData();

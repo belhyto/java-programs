@@ -81,7 +81,7 @@ class PrimeAdam
     System.out.println("The frequency of prime adam numbers="+count);
     
 }
- public static void main ()//main method
+ public static void main (String[] args)//main method
     {
        PrimeAdam obj=new PrimeAdam();
        obj.getData();

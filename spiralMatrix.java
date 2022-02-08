@@ -67,7 +67,7 @@ class spiralMatrix {
     }
   }   
 }
-public static void main ()//main method
+public static void main (String[] args)//main method
     {
         spiralMatrix obj=new spiralMatrix();
         obj.getData();

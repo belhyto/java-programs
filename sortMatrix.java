@@ -88,7 +88,7 @@ void displayMatrix()
             System.out.println();
         }
     }
-     public static void main ()//main method
+     public static void main (String[] args)//main method
     {
        sortMatrix obj=new sortMatrix();
        obj.getData();

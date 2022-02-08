@@ -66,7 +66,7 @@ void concatStr()
     
     }
   
-   public static void main()// main method
+   public static void main(String[] args)// main method
    {
        completeStr obj=new completeStr();
        obj.getData();

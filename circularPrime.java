@@ -58,7 +58,7 @@ void printResult()
         int num = Integer.parseInt(cir);
         return num;
     }
-  public static void main() //main method
+  public static void main(String[] args) //main method
 { 
 	 circularPrime obj=new circularPrime();
 	obj.getData();

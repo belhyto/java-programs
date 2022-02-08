@@ -110,7 +110,7 @@ void findFuture()//method to find the date after 'n' days
                     else
                         mdays[2]=28;
     }
-    public static void main()//main method
+    public static void main(String[] args)//main method
  {
      futureDate obj=new futureDate();
      obj.getData();

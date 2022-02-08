@@ -72,7 +72,7 @@ public class palindromeSen
               StringBuffer reversed=(new StringBuffer(s)).reverse();
               return reversed.toString();
            }
-   public static void main()//main method
+   public static void main(String[] args)//main method
 {
     palindromeSen obj=new palindromeSen();
     obj.getData();

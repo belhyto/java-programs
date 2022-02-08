@@ -77,7 +77,7 @@ void getData()
        int totalSum=sum+dsum;//add sum of boundary and diagonals numbers
        System.out.println("Sum of boundary and diagonal numbers= "+totalSum);
     }
-    public static void main ()//main method
+  public static void main(String[] args) //main method
     {
        matBoundDiaSum obj=new matBoundDiaSum();
        obj.getData();

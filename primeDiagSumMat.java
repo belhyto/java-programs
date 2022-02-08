@@ -75,7 +75,7 @@ public class primeDiagSumMat
    {
        System.out.println("The sum of all elements that are in the diagonal which are prime= "+dsum);
     }
-       public static void main ()//main method
+       public static void main (String[] args)//main method
     {
        primeDiagSumMat obj=new primeDiagSumMat();
        obj.getData();
