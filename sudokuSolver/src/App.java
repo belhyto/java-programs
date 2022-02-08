@@ -109,14 +109,14 @@ public class App {
         int grid[][]= new int [9][9];
         Scanner in= new Scanner(System.in);
         System.out.println("Enter Sudoku Puzzle: ");
-        for (int i = 0; i < 10; i++){
-            for (int j = 0; j < 10; j++){
+        for (int i = 0; i < 9; i++){
+            for (int j = 0; j < 9; j++){
          grid[i][j]= in.nextInt();
          if(grid[i][j]==10)
          {
+            System.out.println("Enter correct value of previous then continue:");
              grid[i][j-1]=in.nextInt();
-             System.out.println("(test) "+grid[i][j-1]);
-            grid[i][j]=in.nextInt();
+             grid[i][j]=in.nextInt();
 
          }
             }
@@ -126,6 +126,6 @@ public class App {
             print(grid);
         else
             System.out.println("No Solution exists");
-        
+            in.close();
     }
 }
